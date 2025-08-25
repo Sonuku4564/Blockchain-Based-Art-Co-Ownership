@@ -1,21 +1,70 @@
-# `Art_tokenization`
+# Blockchain-Based-Art-Co-Ownership 🎨
 
-Welcome to your new `Art_tokenization` project and to the Internet Computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+This platform leverages the **Internet Computer Protocol (ICP)** to tokenize art pieces, enabling users to **buy, sell, or trade fractional ownership** in high-value artworks. By fractionalizing art ownership, it democratizes access to the world of art investments, making it accessible to everyone.
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
+## 🚀 Features
 
-To learn more before you start working with `Art_tokenization`, see the following documentation available online:
+- **Art Tokenization**: Convert physical or digital artworks into fractionalized, tradable tokens.
 
-- [Quick Start](https://internetcomputer.org/docs/current/developer-docs/setup/deploy-locally)
-- [SDK Developer Tools](https://internetcomputer.org/docs/current/developer-docs/setup/install)
-- [Rust Canister Development Guide](https://internetcomputer.org/docs/current/developer-docs/backend/rust/)
-- [ic-cdk](https://docs.rs/ic-cdk)
-- [Candid Introduction](https://internetcomputer.org/docs/building-apps/interact-with-canisters/candid/candid-concepts)
+- **Fractional Ownership**: Users can buy and hold shares of premium artworks.
+
+- **Marketplace**: Buy, sell, or trade your art fractions in a decentralized marketplace.
+
+- **Secure & Transparent**: Built on the **Internet Computer Protocol (ICP)** for immutable and secure transactions.
+
+- **Responsive UI**: A modern and seamless experience on any device.
+
+- **Real-Time Valuation**: Dynamic updates on the current market value of each artwork.
+
+- **Wallet Integration**: Connect with Internet Identity for secure authentication and transactions.
+
+- **Role-Based Access**: Separate features for Artists, Collectors, and Investors.
+
+## Tech Stack
+
+### Frontend
+- **React 19** - A JavaScript library for building user interfaces.
+- **Vite** - Fast build tool for modern web applications.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **React Router DOM** - Client-side routing.
+- **Axios** - API communication with canisters.
+- **Lucide-react** - Icon library.
+- **React-hot-toast** - Toast notifications.
+- **Internet Identity SDK** - Authentication with ICP.
+
+### Backend
+- **Rust** - For building high-performance, memory-safe canisters.
+- **ICP Canisters** - Smart contracts deployed on the Internet Computer.
+- **Candid** - Interface description language for canisters.
+- **Dfinity SDK (dfx)** - To deploy and manage canisters.
+- **Serde & Candid Rust Crates** - Data serialization/deserialization.
+
+## Screenshots
+
+## Screenshots
+
+<img src="./app_screenshots.jpg" width="700" alt="Home Dashboard">
+
+## Project Installation
+
+### Prerequisites
+- **Node.js** (>=18.x)
+- **Rust** (with cargo)
+- **Dfinity SDK (dfx)**: [Install here](https://internetcomputer.org/docs/current/developer-docs/setup/install/)
+- **ICP Wallet / Internet Identity**
+
+---
+
+### Clone the Project
+
+```bash
+git clone https://github.com/Sonuku4564/Blockchain-Based-Art-Co-Ownership.git
+cd Blockchain-Based-Art-Co-Ownership
+```
 
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-cd Art_tokenization/
 dfx help
 dfx canister --help
 ```

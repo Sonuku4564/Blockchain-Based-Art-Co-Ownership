@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "Art_tokenization_backend": {
+      "candid": "src/Art_tokenization_backend/Art_tokenization_backend.did",
+      "package": "Art_tokenization_backend",
+      "type": "rust"
+    },
+    "Art_tokenization_frontend": {
+      "dependencies": [
+        "Art_tokenization_backend"
+      ],
+      "source": [
+        "src/Art_tokenization_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "Art_tokenization_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
